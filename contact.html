@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Neeharika</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Me 📬</h1>
+   <nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="resume/Natla Neeharika_Resume.pdf" download>Resume</a>
+  <a href="contact.html">Contact</a>
+  </nav>
+  </header>
+
+  <section class="contact-beautiful reveal">
+    <h2>Let’s Connect!</h2>
+    <p>If you're hiring, collaborating, or want to say hello — I’d love to hear from you! 😊</p>
+
+    <div class="contact-box">
+      <p><strong>📧 Email:</strong> <a href="mailto:neeharikanatla123@gmail.com">neeharikanatla123@gmail.com</a></p>
+      <p><strong>📞 Phone:</strong> <a href="tel:+916281808246">+91 62818 08246</a></p>
+      <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/natla-neeharika-72b0b4301" target="_blank">linkedin.com/in/natla-neeharika</a></p>
+      <p><strong>💻 HackerRank:</strong> <a href="https://www.hackerrank.com/profile/neeharikanatla11" target="_blank">hackerrank.com/neeharikanatla11</a></p>
+    </div>
+    <form id="contactForm" class="contact-form">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="from_name" placeholder="Enter your name" />
+
+  <label for="email">Your Email:</label>
+  <input type="email" id="email" name="from_email" placeholder="Enter your email" />
+
+  <label for="message">Your Message:</label>
+  <textarea id="message" name="message" placeholder="Write your message..."></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+    <div id="sent-message" class="sent-popup">
+      ✅ Thank you! Your message has been sent.
+    </div>
+    <div class="thank-you-box">
+      <p>Thank you for visiting my portfolio 💜</p>
+      <p>Looking forward to connecting with you soon!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Natla Neeharika • All rights reserved</p>
+  </footer>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init("ikPuo4n0mC088d3T8"); // Get from EmailJS dashboard
+  })();
+</script>
+<button onclick="scrollToTop()" id="scrollBtn" title="Go to top">⬆️</button>
+<script src="script.js"></script>
+</body>
+</html>
+
